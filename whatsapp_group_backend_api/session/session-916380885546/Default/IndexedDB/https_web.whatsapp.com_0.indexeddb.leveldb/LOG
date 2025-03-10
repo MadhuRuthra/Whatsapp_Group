@@ -1,0 +1,35 @@
+2023/07/26-17:01:43.021 669c Creating DB /home/yeejai_server/api_functions/whatsapp_group/.wwebjs_auth/session-916380885546/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/07/26-17:01:43.091 669c Reusing MANIFEST /home/yeejai_server/api_functions/whatsapp_group/.wwebjs_auth/session-916380885546/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/26-17:01:43.305 669e Level-0 table #5: started
+2023/07/26-17:01:43.366 669e Level-0 table #5: 7376 bytes OK
+2023/07/26-17:01:43.438 669e Delete type=0 #3
+2023/07/26-17:01:43.438 669a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/26-17:01:45.100 669a Level-0 table #7: started
+2023/07/26-17:01:45.149 669a Level-0 table #7: 20093 bytes OK
+2023/07/26-17:01:45.213 669a Delete type=0 #4
+2023/07/26-17:01:45.213 669a Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/26-17:02:02.473 669c Level-0 table #9: started
+2023/07/26-17:02:02.547 669c Level-0 table #9: 935556 bytes OK
+2023/07/26-17:02:02.578 669c Delete type=0 #6
+2023/07/26-17:02:03.057 669c Compacting 1@0 + 1@1 files
+2023/07/26-17:02:03.127 669c Generated table #10@0: 29012 keys, 611634 bytes
+2023/07/26-17:02:03.127 669c Compacted 1@0 + 1@1 files => 611634 bytes
+2023/07/26-17:02:03.158 669c compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/26-17:02:03.158 669c Delete type=2 #7
+2023/07/26-17:02:03.158 669c Delete type=2 #9
+2023/07/26-17:02:04.754 669c Level-0 table #12: started
+2023/07/26-17:02:04.816 669c Level-0 table #12: 948854 bytes OK
+2023/07/26-17:02:04.846 669c Delete type=0 #8
+2023/07/26-17:02:05.738 669a Compacting 1@0 + 1@1 files
+2023/07/26-17:02:05.881 669a Generated table #13@0: 48935 keys, 1223035 bytes
+2023/07/26-17:02:05.882 669a Compacted 1@0 + 1@1 files => 1223035 bytes
+2023/07/26-17:02:05.959 669a compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/26-17:02:07.500 669e Level-0 table #15: started
+2023/07/26-17:02:07.931 669e Level-0 table #15: 1302151 bytes OK
+2023/07/26-17:02:07.960 669e Delete type=2 #10
+2023/07/26-17:02:07.960 669e Delete type=0 #11
+2023/07/26-17:02:07.960 669e Delete type=2 #12
+2023/07/26-17:02:08.680 669c Compacting 1@0 + 1@1 files
+2023/07/26-17:02:08.876 669c Generated table #16@0: 65742 keys, 2166119 bytes
+2023/07/26-17:02:08.876 669c Compacted 1@0 + 1@1 files => 2166119 bytes
+2023/07/26-17:02:08.947 669c compacted to: files[ 0 1 1 0 0 0 0 ]

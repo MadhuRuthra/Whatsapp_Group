@@ -1,0 +1,8 @@
+Today Task (11/01/2024) 
+1.Pricing plans - convert to store procedure - 2 Hours
+2.Manually Remove Users in the Group 
+3.Check the Group list. If exceeds the limit show Upgrade plan
+
+
+-- (@seven_days_before ELSE START)
+-- (@get_plan_status IF START)

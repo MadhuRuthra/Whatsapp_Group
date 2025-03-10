@@ -1,0 +1,84 @@
+
+
+// Send Message, schedule send message 
+const get_summary = `SELECT * from summary_report where DATE(summary_report_entdate) = CURRENT_DATE`;
+logger_all.info("[Select query request] : " + get_summary);
+logger_all.info("[Select query request] : " + get_summary);
+const get_summary_result = await db.query(get_summary);
+logger_all.info("[Select query response] : " + JSON.stringify(get_summary_result))
+
+if (get_summary_result.length > 0) {
+    const update_summary = `UPDATE summary_report SET messages_count = messages_count + 1 WHERE DATE(summary_report_entdate) = CURRENT_DATE AND summary_report_status = 'Y'`
+    logger_all.info("[update query request] : " + update_summary);
+    const update_summary_result = await db.query(update_summary);
+    logger_all.info("[update query response] : " + JSON.stringify(update_summary_result))
+
+} else {
+    const insert_summary = `INSERT INTO summary_report VALUES(NULL,'0','1','0','0','0','Y',CURRENT_TIMESTAMP)`;
+    logger_all.info("[insert query request] : " + insert_summary);
+    const insert_summary_result = await db.query(insert_summary);
+    logger_all.info("[insert query response] : " + JSON.stringify(insert_summary_result))
+}
+
+
+// create Group add
+const get_summary = `SELECT * from summary_report where DATE(summary_report_entdate) = CURRENT_DATE`;
+logger_all.info("[Select query request] : " + get_summary);
+logger_all.info("[Select query request] : " + get_summary);
+const get_summary_result = await db.query(get_summary);
+logger_all.info("[Select query response] : " + JSON.stringify(get_summary_result))
+
+if (get_summary_result.length > 0) {
+    const update_summary = `UPDATE summary_report SET group_count = group_count + 1 WHERE DATE(summary_report_entdate) = CURRENT_DATE AND summary_report_status = 'Y'`
+    logger_all.info("[update query request] : " + update_summary);
+    const update_summary_result = await db.query(update_summary);
+    logger_all.info("[update query response] : " + JSON.stringify(update_summary_result))
+
+} else {
+    const insert_summary = `INSERT INTO summary_report VALUES(NULL,'0','0','1','0','0','Y',CURRENT_TIMESTAMP)`;
+    logger_all.info("[insert query request] : " + insert_summary);
+    const insert_summary_result = await db.query(insert_summary);
+    logger_all.info("[insert query response] : " + JSON.stringify(insert_summary_result))
+}
+
+
+
+// add senderid add
+const get_summary = `SELECT * from summary_report where DATE(summary_report_entdate) = CURRENT_DATE`;
+logger_all.info("[Select query request] : " + get_summary);
+logger_all.info("[Select query request] : " + get_summary);
+const get_summary_result = await db.query(get_summary);
+logger_all.info("[Select query response] : " + JSON.stringify(get_summary_result))
+
+if (get_summary_result.length > 0) {
+    const update_summary = `UPDATE summary_report SET whatsappid_count = whatsappid_count + 1 WHERE DATE(summary_report_entdate) = CURRENT_DATE AND summary_report_status = 'Y'`
+    logger_all.info("[update query request] : " + update_summary);
+    const update_summary_result = await db.query(update_summary);
+    logger_all.info("[update query response] : " + JSON.stringify(update_summary_result))
+
+} else {
+    const insert_summary = `INSERT INTO summary_report VALUES(NULL,'0','0','0','1','0','Y',CURRENT_TIMESTAMP)`;
+    logger_all.info("[insert query request] : " + insert_summary);
+    const insert_summary_result = await db.query(insert_summary);
+    logger_all.info("[insert query response] : " + JSON.stringify(insert_summary_result))
+}
+
+// renew_earned_amount
+const get_summary = `SELECT * from summary_report where DATE(summary_report_entdate) = CURRENT_DATE`;
+logger_all.info("[Select query request] : " + get_summary);
+logger_all.info("[Select query request] : " + get_summary);
+const get_summary_result = await db.query(get_summary);
+logger_all.info("[Select query response] : " + JSON.stringify(get_summary_result))
+
+if (get_summary_result.length > 0) {
+    const update_summary = `UPDATE summary_report SET renew_earned_amount = renew_earned_amount + ${renew_earned_amount} WHERE DATE(summary_report_entdate) = CURRENT_DATE AND summary_report_status = 'Y'`
+    logger_all.info("[update query request] : " + update_summary);
+    const update_summary_result = await db.query(update_summary);
+    logger_all.info("[update query response] : " + JSON.stringify(update_summary_result))
+
+} else {
+    const insert_summary = `INSERT INTO summary_report VALUES(NULL,'0','0','0','0','${renew_earned_amount}','Y',CURRENT_TIMESTAMP)`;
+    logger_all.info("[insert query request] : " + insert_summary);
+    const insert_summary_result = await db.query(insert_summary);
+    logger_all.info("[insert query response] : " + JSON.stringify(insert_summary_result))
+}
