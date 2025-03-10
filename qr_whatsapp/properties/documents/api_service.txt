@@ -1,0 +1,96 @@
+request_id : dpt2_2023109031830_23
+$bearer_token = 'Authorization: '.$_SESSION['yjwatsp_bearer_token'].'';
+
+
+https://yjtec.in/watsp_group/login POST -- DONE
+{
+    "txt_username":"super_admin",
+    "txt_password":"YJt@123#",
+    "request_id":"12342"
+}
+
+https://yjtec.in/watsp_group/logout POST -- DONE
+{
+    "request_id":"1234578"
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/list/country_list GET -- DONE
+{
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/get_qrcode POST -- DONE
+{
+    "mobile_number":"919025181189",
+    "request_id":"1234"
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/sender_id/sender_id_list POST -- DONE
+{
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/sender_id/delete_sender_id DELETE -- DONE
+{
+    "sender_id":"2",
+    "request_id":"1234"
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/add_group POST (Existing Group)
+{
+    "group_name":"YeeJai Technologies",
+    "sender_id":"919025181189",
+    "participants_name":["yjtec5_916380885546", "yjtec5_919894606748", "yjtec5_919933445566"],
+    "participants_number":["916380885546", "919894606748", "919933445566"],
+    "request_id":"7651231"
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/create_group POST (New Group)
+{
+    "group_name":"YeeJai Technologies",
+    "sender_id":"919025181189",
+    "participants_name":["yjtec5_916380885546", "yjtec5_919894606748", "yjtec5_919933445566"],
+    "participants_number":["916380885546", "919894606748", "919933445566"],
+    "request_id":"1231552245"
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/list/group_list GET -- DONE
+{
+    $bearer_token
+}
+
+Output : 
+{
+    "response_code": 1,
+    "response_status": 200,
+    "response_msg": "Success",
+    "group_list": [
+        {
+            "user_name": "Super Admin",
+            "mobile_no": "919025181189",
+            "group_name": "YeeJai Technologies",
+            "total_count": 3,
+            "success_count": 2,
+            "failure_count": 1,
+            "group_contact_status": "Y",
+            "group_contact_entdate": "2023-07-06T09:29:05.000Z"
+        }
+    ]
+}
+
+https://yjtec.in/watsp_group/create_csv POST -- DONE
+{
+    "mobile_number":["919025181189"],
+    "request_id":"123899874"
+    $bearer_token
+}
+
+https://yjtec.in/watsp_group/report/campaign_report GET -- DONE
+{
+    $bearer_token
+}
