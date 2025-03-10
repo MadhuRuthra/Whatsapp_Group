@@ -1,0 +1,271 @@
+.h2,
+h2 {
+    color: #FFF !important;
+    font-weight: bold !important;
+}
+
+.price-sec {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 0px;
+    background-color: #ffffff;
+}
+
+.price-sec .ptables-head {
+    font-family: 'Domine', serif;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+    padding: 30px 0;
+    margin: 0px 0px 100px 0px;
+    border-radius: 3px;
+    background: linear-gradient(25deg, #feae3f 15%, transparent 0%),
+        linear-gradient(-25deg, #f321d7 15%, transparent 0%),
+        linear-gradient(-150deg, #64b5f6 15%, transparent 0%),
+        linear-gradient(150deg, #f47 15%, transparent 0%);
+
+}
+
+@media all and (max-width:600px) {
+    .ptables-head h1 {
+        font-size: 30px;
+    }
+}
+
+
+.price-sec .price-table {
+    margin: 5px 0px;
+}
+
+.price-sec .price-table .card {
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    background: linear-gradient(-45deg, #fda73e, #fda73e);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+    transition: .5s;
+    overflow: hidden;
+}
+
+.price-sec .price-table .card:hover {
+    transform: scale(1.1);
+}
+
+.price-table:nth-child(1) .card,
+.price-table:nth-child(1) .card .title i {
+    background: linear-gradient(-45deg, #0063bf, #0063bf);
+}
+
+.price-table:nth-child(2) .card,
+.price-table:nth-child(2) .card .title i {
+    background: linear-gradient(-45deg, #700963, #700963);
+}
+
+.price-table:nth-child(3) .card,
+.price-table:nth-child(3) .card .title i {
+    background: linear-gradient(-45deg, #4B527E, #4B527E);
+}
+
+.price-table:nth-child(4) .card,
+.price-table:nth-child(4) .card .title i {
+    background: linear-gradient(-45deg, #C08261, #C08261);
+}
+
+.price-table:nth-child(5) .card,
+.price-table:nth-child(5) .card .title i {
+    background: linear-gradient(-45deg, #65b2f5, #65b2f5);
+}
+
+.price-table:nth-child(6) .card,
+.price-table:nth-child(6) .card .title i {
+    background: linear-gradient(-45deg, #186b87, #186b87);
+}
+
+.price-table:nth-child(7) .card,
+.price-table:nth-child(7) .card .title i {
+    background: linear-gradient(-45deg, #445D48, #445D48);
+}
+
+.price-table:nth-child(8) .card,
+.price-table:nth-child(8) .card .title i {
+    background: linear-gradient(-45deg, #191717, #191717);
+}
+
+.price-table:nth-child(9) .card,
+.price-table:nth-child(9) .card .title i {
+    background: linear-gradient(-45deg, #5C5470, #5C5470);
+}
+
+.price-table:nth-child(10) .card,
+.price-table:nth-child(10) .card .title i {
+    background: linear-gradient(-45deg, #A73121, #A73121);
+}
+
+.price-table .card:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: rgba(255, 255, 255, .1);
+    z-index: 1;
+    transform: skewY(-5deg) scale(1.5);
+
+}
+
+.price-table .title i {
+    color: #fff;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2)
+}
+
+.price-table .title h2 {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 28px;
+    z-index: 2;
+}
+
+.price-table .price {
+    position: relative;
+    z-index: 2;
+}
+
+.price-table .price h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: #fff !important;
+    font-size: 60px !important;
+
+}
+
+.option {
+    position: relative;
+    z-index: 2;
+}
+
+.option ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.option ul li {
+    margin: 0 0 10px;
+    padding: 0px 15px;
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.card a {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    color: #000;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    margin: 20px auto 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+
+.slideToggle {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.slideToggle i {
+    margin: 0 15px;
+}
+
+.form-switch {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-switch i {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #c0c0c0;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+
+.form-switch i::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 22px;
+    background-color: #00ce6c;
+    border-radius: 15px;
+    transform: translate3d(4px, 3px, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.form-switch input {
+    display: none;
+}
+
+.form-switch input:checked+i::after {
+    transform: translate3d(54px, 3px, 0);
+}
+
+.js-yearlypricing {
+    display: none;
+    text-align: center;
+}
+
+/* Center the div horizontally and vertically */
+.center-div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-disabled {
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+}
+
+.submit {
+    height: 60px;
+}

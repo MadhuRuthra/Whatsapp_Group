@@ -1,0 +1,127 @@
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24123_001!en_GB!1 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24123_001"
+                            }) on 2024-02-05 11:59:09
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 11:59:10
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 11:59:10
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 11:59:11
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 11:59:11
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:00:55
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:00:55
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:00:56
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:00:56
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:02:21
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:02:21
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:02:23
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:02:23
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24131_002!en_US!2 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24131_002"
+                            }) on 2024-02-05 12:05:59
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name= : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : ""
+                            }) on 2024-02-05 12:06:01
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:06:03
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:06:03
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:06:04
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:06:04
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24123_001!en_GB!1 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24123_001"
+                            }) on 2024-02-05 12:06:58
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:07:00
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:07:00
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:07:01
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:07:01
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24123_001!en_GB!1 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24123_001"
+                            }) on 2024-02-05 12:10:08
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:10:09
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:10:09
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:10:10
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:10:10
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24131_002!en_US!2 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24131_002"
+                            }) on 2024-02-05 12:12:56
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:12:59
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:12:59
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:13:01
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:13:01
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24123_001!en_GB!1 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24123_001"
+                            }) on 2024-02-05 12:14:17
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:14:18
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:14:18
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:14:19
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:14:19
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24123_001!en_GB!1 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24123_001"
+                            }) on 2024-02-05 12:16:18
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:16:29
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:16:29
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:16:30
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:16:30
+https://yjtec.in/whatsapp_group_newapi/ajax/whatsapp_call_functions.php?getSingleTemplate_meta=getSingleTemplate_meta&tmpl_name=te_Sup_t00000000_24123_001!en_GB!1 : IP Address : 192.168.1.27 ==> Compose Business Whatsapp Page : User : Super Admin Execute the service ({
+                                   "template_name" : "te_Sup_t00000000_24123_001"
+                            }) on 2024-02-05 12:17:49
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : ""
+                          }) on 2024-02-05 12:17:49
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group= : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":0,"response_status":201,"response_msg":"Error occurred","data":["\"Group Master Id\" is not allowed to be empty"]}) on 2024-02-05 12:17:49
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query ({
+                                "user_id" : "1",
+                                "group_master_id" : "1"
+                          }) on 2024-02-05 12:17:51
+https://yjtec.in/whatsapp_group_newapi/ajax/call_functions.php?tmpl_call_function=group_sender_ids&slt_whatsapp_group=TESTING!3!1 : IP Address : 192.168.1.27 ==> Compose Whatsapp - Validate Campaign Page : User : Super Admin executed the query response ({"response_code":1,"response_status":200,"response_msg":"Success","group_list":[{"group_master_id":1,"user_name":"Super Admin","user_id":1,"mobile_no":"918838964597","group_name":"TESTING","total_count":3,"success_count":3,"failure_count":0,"group_master_status":"Y","group_master_entdate":"23-01-2024 13:32:57"}]}) on 2024-02-05 12:17:51
